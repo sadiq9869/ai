@@ -1,0 +1,24 @@
+telebot==13.7  # For Telegram bot functionality
+requests==2.31.0  # For HTTP requests to APIs
+gtts==2.5.3  # Google Text-to-Speech for fallback voice generation
+elevenlabs==0.2.22  # For ElevenLabs voice generation (ensure compatible with your API key)
+textblob==0.17.1  # For text analysis (e.g., mood detection)
+difflib==0.1.9  # For spelling correction (included in Python standard library, but kept for clarity)
+googlesearch-python==2.1.2  # For web search functionality
+youtube-search-python==1.6.6  # For YouTube search
+instaloader==4.10  # For Instagram profile scraping
+TTS==0.22.0  # Coqui TTS for local voice generation (latest stable version as of April 2025)
+numpy==1.26.4  # Required by Coqui TTS for numerical operations
+torch==2.3.0  # Required by Coqui TTS (ensure compatible with your system, CPU or GPU)
+torchaudio==2.3.0  # Required by Coqui TTS for audio processing
+torchvision==0.18.0  # Optional, but included for Coqui TTS compatibility
+webbrowser==0.8  # For opening URLs (included in Python standard library)
+re==2.2.1  # For regular expressions (included in Python standard library, but kept for clarity)
+shutil==1.0.0  # For file operations (included in Python standard library, but kept for clarity)
+json==2.0.9  # For JSON handling (included in Python standard library, but kept for clarity)
+threading==0.0.1  # For thread safety (included in Python standard library, but kept for clarity)
+queue==0.0.1  # For task queue (included in Python standard library, but kept for clarity)
+logging==0.5.1.2  # For logging (included in Python standard library, but kept for clarity)
+datetime==5.5  # For date/time handling (included in Python standard library, but kept for clarity)
+os==0.0.1  # For operating system interactions (included in Python standard library, but kept for clarity)
+random==0.0.1  # For random selections (included in Python standard library, but kept for clarity)
