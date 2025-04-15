@@ -1,0 +1,15 @@
+pyTelegramBotAPI==4.15.0  # For Telegram bot functionality
+requests==2.31.0  # For HTTP requests to APIs
+gtts==2.5.3  # Google Text-to-Speech for fallback voice generation
+elevenlabs==0.2.22  # For ElevenLabs voice generation
+textblob==0.17.1  # For text analysis (e.g., mood detection)
+google-search-results==2.4.2  # For web search functionality (SerpAPI)
+youtube-search-python==1.6.6  # For YouTube search
+instaloader==4.10  # For Instagram profile scraping
+TTS==0.22.0  # Coqui TTS for local voice generation
+numpy==1.26.4  # Required by Coqui TTS
+torch==2.3.0  # Required by Coqui TTS
+torchaudio==2.3.0  # Required by Coqui TTS
+torchvision==0.18.0  # Optional, for Coqui TTS compatibility
+gradio==4.44.1  # For Gradio interface
+openai==1.10.0  # For OpenAI API
